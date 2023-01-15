@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 1.25rem;
+    padding: 0;
+}
+
+.square {
+    background: #fff;
+    border: 0.063rem solid #999;
+    float: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2.125rem;
+    height: 2.125rem;
+    margin-right: -0.063rem;
+    margin-top: -0.063rem;
+    padding: 0;
+    text-align: center;
+    width: 2.125rem;
+}
+
+.board-row:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.gameStatus {
+    margin-bottom: 1rem;
+}
