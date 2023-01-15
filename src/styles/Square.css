@@ -25,6 +25,12 @@ body {
     width: 2.125rem;
 }
 
+.square:hover {
+    background: linear-gradient(
+        to bottom right, #00ffff, #0071bc, #93278f
+    )
+}
+
 .board-row:after {
     clear: both;
     content: '';

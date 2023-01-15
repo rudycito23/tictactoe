@@ -25,7 +25,6 @@ export const Board = () => {
     gameStatus = "Next player: " + (xIsNext ? "X" : "O");
   }
 
-
   return (
     <>
     <div className="gameStatus">{gameStatus}</div>
