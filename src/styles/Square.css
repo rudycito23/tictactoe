@@ -40,3 +40,12 @@ body {
 .gameStatus {
     margin-bottom: 1rem;
 }
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.game-info {
+    margin-left: 1.25rem;
+}
